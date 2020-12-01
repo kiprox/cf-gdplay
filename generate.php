@@ -113,7 +113,7 @@
 		<hr>
 	</div>
 	<footer class="footer">
-		<p class="text-center text-white">Ex. Malaikat Copyright &copy; <?php echo date('Y') ?> <a href="https://t.me/kiprox" title="CFPlayer" target="_blank">CFPlayer</a>. All rights reserved.</p>
+		<p class="text-center text-white">Copyleft &copy; <?php echo date('Y') ?> <a href="https://t.me/kiprox" title="CFPlayer" target="_blank">CFPlayer</a>. All rights reserved.</p>
 	</footer>
 </body>
 </html>
