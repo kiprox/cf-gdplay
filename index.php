@@ -9,7 +9,7 @@
 	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
-	<script type="text/javascript" src="https://content.jwplatform.com/libraries/0P4vdmeO.js"></script>
+	<script type="text/javascript" src="https://cdn.statically.io/gh/kiprox/cf-gdplay/5f445682/assets/js/jwplayer.js"></script>
 	<script type="text/javascript">jwplayer.key="IMtAJf5X9E17C1gol8B45QJL5vWOCxYUDyznpA==";</script>
 	<style type="text/css" media="screen">html,body{padding:0;margin:0;height:100%}#cf-player{width:100%!important;height:100%!important;overflow:hidden;background-color:#000}</style>
 </head>
