@@ -9,8 +9,8 @@
 	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
-	<script type="text/javascript" src="https://ssl.p.jwpcdn.com/player/v/8.8.6/jwplayer.js"></script>
-	<script type="text/javascript">jwplayer.key="64HPbvSQorQcd52B8XFuhMtEoitbvY/EXJmMBfKcXZQU2Rnn";</script>
+	<script type="text/javascript" src="https://ssl.p.jwpcdn.com/player/v/8.0.12/jwplayer.js"></script>
+	<script type="text/javascript">jwplayer.key="XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo";</script>
 	<style type="text/css" media="screen">html,body{padding:0;margin:0;height:100%}#cf-player{width:100%!important;height:100%!important;overflow:hidden;background-color:#000}</style>
 </head>
 <body>
