@@ -100,8 +100,8 @@
 							$('#action-submit').removeAttr('disabled');
 						},
 						success: function (result) {
-							$('#url-encode').val('<?php echo $domainServer . '?data=' ?>'+result+'');
-							$('#iframe-encode').html('<iframe src="<?php echo $domainServer . '?data=' ?>'+result+'" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>');
+							$('#url-encode').val('<?php echo $domainServer . 'index.php?data=' ?>'+result+'');
+							$('#iframe-encode').html('<iframe src="<?php echo $domainServer . 'index.php?data=' ?>'+result+'" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>');
 							$('#fa-loading').html('<i class="fa fa-retweet"></i>');
 							$('#action-submit').removeAttr('disabled');
 						}
