@@ -9,8 +9,8 @@
 	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
-	<script type="text/javascript" src="https://ssl.p.jwpcdn.com/player/v/8.0.12/jwplayer.js"></script>
-	<script type="text/javascript">jwplayer.key="XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo";</script>
+	<script type="text/javascript" src="https://content.jwplatform.com/libraries/fgbTqCCh.js"></script>
+	<script type="text/javascript">jwplayer.key="cLGMn8T20tGvW+0eXPhq4NNmLB57TrscPjd1IyJF84o=";</script>
 	<style type="text/css" media="screen">html,body{padding:0;margin:0;height:100%}#cf-player{width:100%!important;height:100%!important;overflow:hidden;background-color:#000}</style>
 </head>
 <body>
@@ -61,6 +61,20 @@ if ($data != '') {
 					aboutlink: "https://fb.com/delta.web.id",
 					abouttext: "CFPlayer",
 					image: "'.$poster.'",
+					logo: {
+						file: "https://cdn.jsdelivr.net/gh/kiprox/cf-gdplay@master/assets/img/aio-playerlogo.png",
+						link: "https://fb.com/delta.web.id",
+                        			hide: "true",
+						position: "top-left"
+					},
+                    			skin: {
+                    				url: "https://cdn.jsdelivr.net/gh/kiprox/cf-gdplay@master/skins/netplex.css",
+		    				name: "Netflix"
+		    			},
+                    			autoPause: {
+    						viewability: "true",
+    						pauseAds: "true"
+					},
 					captions: {
 						color: "#f3f368",
 						fontSize: 16,
@@ -74,7 +88,7 @@ if ($data != '') {
 				  swal("Server Error!", "Please PM Me to fix it. Thank you!", "error");
 				});
 				player.on("error" , function(){
-					swal("Player Error!", "Please PM Me to fix it. Thank you!", "error");
+					swal("Reload Browser!", "Your Internet Connection Problems", "error");
 				});';
 	
 	$packer = new Packer($data, 'Normal', true, false, true);
